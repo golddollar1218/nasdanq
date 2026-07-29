@@ -3,10 +3,10 @@
   if (cab) {
     cab.addEventListener("click", function () {
       var ca = cab.getAttribute("data-ca");
-      if (!ca || ca === "TBA") {
+      if (!ca || ca === "0xd6319a9dfe81251fe3d5bfb3977dc5be25402145") {
         cab.textContent = "Coming soon";
         setTimeout(function () {
-          cab.textContent = ca || "TBA";
+          cab.textContent = ca || "0xd6319a9dfe81251fe3d5bfb3977dc5be25402145";
         }, 1200);
         return;
       }
